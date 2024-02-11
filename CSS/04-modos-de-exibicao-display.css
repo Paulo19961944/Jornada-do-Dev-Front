@@ -1,0 +1,11 @@
+div{
+    display: inline; /*Um do lado do outro */
+}
+
+p{
+    display: inline; /*Um do lado do outro */
+}
+
+span{
+    display: block; /*Um do em cima do outro */
+}
