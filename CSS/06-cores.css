@@ -1,0 +1,87 @@
+/*
+    As cores são medidas em RGB, então devemos converter Hexadecimal para Binário
+    A Forma mais fácil de se fazer isso é transformar em Binário primeiro e depois converter para Decimal.
+    São 8 bits e segue a tabela abaixo
+
+    -----------------------------------
+    128 | 64 | 32 | 16 -> 1 | 2 | 4 | 8 
+    -----------------------------------
+
+    UM POUCO SOBRE HEXADECIMAL:
+    
+    O Número decimal vai do 0 ao 9, o Binário do 0 ao 1, e o Hexadecimal do 0 ao 15
+
+    ------------|----------
+    HEXADECIMAL | DECIMAL
+    ------------|----------
+         0    ->    0
+         1    ->    1
+         2    ->    2
+         3    ->    3
+         4    ->    4
+         5    ->    5
+         6    ->    6
+         7    ->    7
+         8    ->    8
+         9    ->    9
+         a    ->    10
+         b    ->    11
+         c    ->    12
+         d    ->    13
+         e    ->    14
+         f    ->    15
+*/
+
+/*RED
+    Hexadecimal: #5f
+    Binário: 0101 1111
+    Decimal: 95
+*/
+
+/*GREEN
+    Hexadecimal: 9e
+    Binário: 1001  1110
+    Decimal:  158
+*/
+
+/*BLUE
+    Hexadecimal: a0
+    Binário: 1010  0000
+    Decimal: 170
+*/
+
+/*
+    ---------- CONCLUSÃO ------------
+
+    A Cor utilizada foi a CadetBlue, 
+    
+    E o seu código Hexadecimal é 
+    #5f9ea0
+
+    Porém o código RGB é 95, 158, 170.
+    Podemos usar esse código no RGB 
+    onde podemos colocar a opacidade 
+    na cor, sem perder a qualidade no 
+    texto.
+    
+    ----------------------------------
+
+    CÓDIGO HUE
+
+    MATIZ
+    É como se fosse um circulo que vai do Zero ao 360º
+    Vermelho (R) = 0° a 120º
+    Verde (G) = 120º a 240º
+    Azul (B) = 240º a 360º
+
+    SATURAÇÃO
+    Ela vai perdendo a força e o brilho da cor
+
+    BRILHO
+    Modifica o Brilho da cor, na prática é o quanto ela fica brilhante ou mais escura.
+*/
+
+html{
+    background-color: #5f9ea0;
+}
+

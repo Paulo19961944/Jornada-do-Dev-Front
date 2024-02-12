@@ -1,0 +1,23 @@
+html{
+    background-color: #b9915d
+}
+
+div.box-1{
+    display: inline-block;
+    background-color: #f04d4d;
+    height: 300px;
+    width: 300px;
+}
+
+div.box-2{
+    display: inline-block;
+    background-color: #1acdcd;
+    height: 300px;
+    width: 300px;
+}
+
+div.box-a{
+    width: 100px;
+    height: 100px;
+    background: #f4f427;
+}
