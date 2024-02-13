@@ -1,0 +1,10 @@
+body{
+    background-color: #181818;
+}
+
+div.box{
+    background-color: #242424;
+    background-image: url("./imagens/pattern.png");
+    width: 100%;
+    min-height: 600px;
+}
