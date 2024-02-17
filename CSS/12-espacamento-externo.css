@@ -1,0 +1,17 @@
+html{
+    background-color: #333;
+}
+
+.box{
+    margin: 20px 10px;
+    background-color: #999;
+    width: 300px;
+    height: 300px;
+}
+
+.box2{
+    margin: 20px 10px 5px;
+    background-color: #999;
+    width: 300px;
+    height: 300px;
+}
