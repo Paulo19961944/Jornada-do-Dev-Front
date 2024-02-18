@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #333;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.box{
+    padding: 2rem;
+    background-color: #999;
+}
+
+p{
+    margin: 0 0 1rem 1rem;
+}
+
+.texto-1{
+    font-weight: 100;
+}
+
+.texto-2{
+    font-weight: 200;
+}
+
+.texto-3{
+    font-weight: 300;
+}
+
+.texto-4{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.texto-5{
+    font-weight: 500;
+}
+
+.texto-6{
+    font-weight: 600;
+}
+
+.texto-7{
+    font-weight: 700;
+}
+
+.texto-8{
+    font-weight: 800;
+}
+
+.texto-9{
+    font-weight: 900;
+}
