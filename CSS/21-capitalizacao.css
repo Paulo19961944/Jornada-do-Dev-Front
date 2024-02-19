@@ -1,0 +1,30 @@
+html{
+    background-color: #333;
+}
+
+.box{
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.box2{
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.box3{
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.box4{
+    background-color: #999;
+    padding: 20px;
+    text-transform: none;   
+}

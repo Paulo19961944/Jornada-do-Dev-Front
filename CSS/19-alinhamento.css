@@ -1,0 +1,23 @@
+html{
+    background-color: #333;
+}
+
+.box{
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box2{
+    background-color: #999;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: right;    
+}
+
+.box3{
+    background-color: #999;
+    padding: 20px;
+    text-align: justify;    
+}
